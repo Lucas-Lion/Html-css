@@ -3,4 +3,4 @@
 
  Estou aprendendo a desenvolver em html!
 
-<a href="https://lucas-lion.github.io/html-css/Atividades/11%20Veritas/veritas">Executar o 11 Veritas</a>
+<a href="https://lucas-lion.github.io/html-css/Atividades/11%20Veritas/veritas">Iniciar o Veritas</a>
