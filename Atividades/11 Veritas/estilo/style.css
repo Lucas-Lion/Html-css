@@ -7,7 +7,7 @@
 }
 
 :root {
-    --MENU: #000d1967;
+    --MENU: #031d3467;
     --NAV: #141c2e81;
     --BACKGROUND: #161619;
     --BOX-CONTEUDO: #0c121c; 
@@ -72,11 +72,11 @@ body {
 main {
     background-color: var(--BOX-CONTEUDO);
     min-width: 300px;
-    max-width: 1000px;
+    max-width: 900px;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.425);
     border-radius: 0px 0px 10px 10px;
 }
 
