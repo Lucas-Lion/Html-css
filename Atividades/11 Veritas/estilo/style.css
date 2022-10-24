@@ -132,7 +132,7 @@ aside {
     border-radius: 10px;
 }
 
-aside > h4 {
+aside > h5 {
     background-color: var(--BOX-VÍDEO);
     border-radius: 10px 10px 0px 0px;
     height: 30px;
@@ -142,6 +142,29 @@ aside > h4 {
     margin: -10px -10px 0 -10px;
     color: var(--FONT-COLOR);
     font-family: 'Sacred Valley';
+}
+
+h4 {
+    height: 30px;
+    text-align: justify;
+    font-size: 1.5em;
+    padding: 5px;
+    margin: -10px -10px 10px -10px;
+    color: var(--FONT-COLOR);
+    font-family: 'Sacred Valley';
+}
+
+.referencia {
+    text-decoration: none;
+    color: var(--FONT-COLOR);
+    font-family: var(--FONT-BASE);
+    margin: 10px 10px 10px 10px;
+    line-height: 1.5em;
+}
+
+a:hover {
+    border-radius: 20px;
+    background-color: #354358;
 }
 
 ul > li {
