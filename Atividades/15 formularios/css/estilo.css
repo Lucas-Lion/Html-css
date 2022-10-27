@@ -9,7 +9,7 @@
     --FOOTER-COLOR: #027368;
     --FONT-BASE: Arial, Helvetica, sans-serif;
 }
-
+ 
 * {
     margin: 0;
     padding: 0;
@@ -33,11 +33,40 @@ form {
 div.single{
     width: 100%;
     margin: 30px 0;
-    position: relative;
 }
 
 div.single label{
     font-size: 16px;
     position: absolute;
+    left: 0;
+    bottom: 5px;
+    color: rgb(150, 150, 150);
+    cursor: text;
+    transition: 0.5s ease-in-out;
 }
 
+div.single .input {
+    width: 100%;
+    padding: 5px;
+    color: rgb(150, 150, 150);
+    border: 0;
+    border-bottom: 2px solid var(--FOOTER-COLOR);
+    outline: 0;
+    font-size: 16px;
+}
+
+div.single .input:focus,
+div.single .input:valid {
+    border-bottom: 2px solid var(--FOOTER-COLOR);
+}
+
+div.single .input:focus ~ label
+div.single .input:valid ~ label {
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: var(--FOOTER-COLOR);
+}
+
+h1 {
+    font-family: var(--FONT-BASE);
+}
