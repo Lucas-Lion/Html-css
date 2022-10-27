@@ -1,6 +1,17 @@
 @charset "UTF-8";
 
+:root {
+    --BODY-COLOR: #023c57;
+    --FONT-COLOR: #e7e5e5;
+    --BUTTON-COLOR: #004F4D;
+    --DIV-COLOR: #002333;
+    --DIV-COLOR-2: #077375;
+    --FOOTER-COLOR: #027368;
+    --FONT-BASE: Arial, Helvetica, sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
+
