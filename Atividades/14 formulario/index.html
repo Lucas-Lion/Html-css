@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -10,15 +10,19 @@
 </head>
 <body>
             <main>
-                <h1>Login</h1>
-
-                <p class="login" for="">Usuário</p> <br>
-                <div id="box"><input placeholder="Lucas_lionv" type="text"></div> <br>
-                <p class="login" for="">Senha</p> <br>
-                <div id="box"><input type="password"></div> <br>
-                <div id="box"><button>Login</button></div> <br>
+                <form action="">
+                    <h1>Login</h1>
+                    <div class="single">
+                        <input placeholder="Usuário" required type="text" id="nome" class="input">
+                        <label for="nome">Usuário</label>
+                    </div>
             
-                <a href="#"><p id="l1" for="">Esqueceu a senha?</p></a>
+                    <div class="single">
+                        <input placeholder="Senha" type="password" id="senha" class="input">
+                        <label for="senha">Senha</label>
+                    </div>
+                    <a href="#">Esqueceu a senha?</a>
+                </form> 
             </main>
 </body> 
 </html>
