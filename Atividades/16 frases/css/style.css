@@ -26,7 +26,7 @@ html, body {
 }
 
 header {
-    background-color: var(--HEADER-COLOR);
+    background-image: linear-gradient(var(--HEADER-COLOR), var(--FOOTER-COLOR));
     color: var(--HEADER-FONT-COLOR);
     text-align: center;
 }
