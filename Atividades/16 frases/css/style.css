@@ -58,6 +58,13 @@ header a:hover, footer a:hover {
 section {
     padding-top: 15vh;
     padding-bottom: 15vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.imagem > p {
+    background-color: #00010d56;
+    width: 400px;
 }
 
 section.normal {
@@ -68,6 +75,33 @@ section.normal {
 section.imagem {
     background-color: var(--SECTION-IMAGEM);
     color: white;
+}
+
+.link-titulo-1 {
+    text-decoration: none;
+    color: black;
+}
+
+.link-titulo-2 {
+    text-decoration: none;
+    color: #D9D2D0;
+}
+
+section a:hover{
+    text-decoration: none;
+    color: rgb(163, 156, 156);
+}
+
+h2 {
+    padding-bottom: 2%;
+    font-variant: small-caps;
+    font-size: 170%;
+}
+
+h3 {
+    padding-bottom: 2%;
+    font-variant: small-caps;
+    font-size: 170%;
 }
 
 footer {
