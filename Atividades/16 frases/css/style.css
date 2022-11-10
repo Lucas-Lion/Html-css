@@ -129,7 +129,7 @@ section a:hover{
 
 h2 {
     text-align: center;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     font-variant: small-caps;
     font-size: 170%;
     font-family: var(--FONT-CONTEUDO);
@@ -137,7 +137,7 @@ h2 {
 
 h3 {
     text-align: center;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     font-variant: small-caps;
     font-size: 170%;
     font-family: var(--FONT-CONTEUDO);
