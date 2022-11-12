@@ -27,6 +27,7 @@ html, body {
 
 header {
     background-image: linear-gradient(var(--HEADER-COLOR), var(--FOOTER-COLOR));
+    background-attachment: fixed;
     color: var(--HEADER-FONT-COLOR);
     text-align: center;
 }
