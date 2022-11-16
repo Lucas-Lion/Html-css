@@ -18,6 +18,10 @@
 
             TD = DADOS
             TH= TITULOS
+
+            EFEITO ZEBRADO (pseudoclasse)
+            :nth-child(2n)
+            odd (impar) e even (par)
         */
 
         body {
@@ -53,6 +57,10 @@
 
         td.num {
             text-align: right;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
         }
     </style>
 </head>
