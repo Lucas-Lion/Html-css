@@ -3,6 +3,6 @@
 
  Estou aprendendo a desenvolver em html!
 
-<a href="https://lucas-lion.github.io/html-css/Atividades/11%20Veritas/index">Iniciar o Veritas!</a> <br>
-<a href="https://lucas-lion.github.io/Html-css/Atividades/16%20frases/index.html">Poesias Góticas by Silvio Parise!</a> <br>
-<a href="https://lucas-lion.github.io/Html-css/Atividades/15%20formularios/index.html">Meu protótipo de formulário!</a>
+<a target="_blank" href="https://lucas-lion.github.io/Html-css/Atividades/11%20Veritas/index.html">Iniciar o Veritas!</a> <br>
+<a target="_blank" href="https://lucas-lion.github.io/Html-css/Atividades/16%20frases/index.html">Poesias Góticas by Silvio Parise!</a> <br>
+<a target="_blank" href="https://lucas-lion.github.io/Html-css/Atividades/15%20formularios/index.html">Meu protótipo de formulário!</a>
