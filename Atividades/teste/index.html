@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        div {
+            display: inline-block;
+            margin-right: 40px;
+        }
+
+         .imagem {
+            background-color: #0c5b91;
+            background-image: url(computadores.png);  
+            height:300px;
+            width:300px;
+            background-size: 200px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            border-radius: 20px;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.756);
+            margin-bottom: 40px;
+            }
+
+            .imagem-2 {
+            background-color: #0c5b91;
+            background-image: url(rede.png);  
+            height:300px;
+            width:300px;
+            background-size: 200px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            border-radius: 20px;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.756);
+            margin-bottom: 40px;
+            }
+
+            .imagem-3 {
+            background-color: #0c5b91;
+            background-image: url(cabo.png);  
+            height:300px;
+            width:300px;
+            background-size: 200px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            border-radius: 20px;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.756);
+            }
+
+        .texto {
+            padding:20px;
+            font-family:Arial;
+            text-align:center;
+            color:white;
+            opacity:0;
+            transition: opacity .2s linear;
+            background-color:rgba(0,0,0,.7);
+            }
+
+        .texto {
+            height:260px;
+            width:260px;
+            border-radius: 20px;
+        }
+
+        .imagem:hover .texto {
+            opacity:1;
+            }
+
+        .imagem-2:hover .texto {
+            opacity:1;
+            }
+
+        .imagem-3:hover .texto {
+            opacity:1;
+            }
+        a {
+            text-align: center;
+            vertical-align: middle;
+            display: block;
+            padding: 50% 50% 50% 50%;
+            margin: -15px -15px -15px -15px;
+        }
+
+        div > a {
+            font-size: 3.1vh;
+            text-decoration: none;
+            font-weight: bolder;
+            color: white;
+            }
+    </style>
+</head>
+<body>
+    <div class="imagem">
+        <div class="texto"><a target="_blank" href="https://navita.com.br/blog/tudo-o-que-voce-precisa-saber-sobre-o-inventario-de-ti/#:~:text=Demonstração%20Gratuita-,Quais%20informações%20devem%20ser%20incluídas%20no%20inventário%20de%20TI%3F,e%20atualizações%2C%20entre%20outros%20dados.">Máquinas Prontas
+        </a></div>
+    </div>
+
+    <div class="imagem-2">
+        <div class="texto"><a target="_blank" href="https://navita.com.br/blog/tudo-o-que-voce-precisa-saber-sobre-o-inventario-de-ti/#:~:text=Demonstração%20Gratuita-,Quais%20informações%20devem%20ser%20incluídas%20no%20inventário%20de%20TI%3F,e%20atualizações%2C%20entre%20outros%20dados.">Peças
+        </a></div>
+    </div>
+
+    <div class="imagem-3">
+        <div class="texto"><a target="_blank" href="https://navita.com.br/blog/tudo-o-que-voce-precisa-saber-sobre-o-inventario-de-ti/#:~:text=Demonstração%20Gratuita-,Quais%20informações%20devem%20ser%20incluídas%20no%20inventário%20de%20TI%3F,e%20atualizações%2C%20entre%20outros%20dados.">Cabos
+        </a></div>
+    </div>
+</body>
+</html>
