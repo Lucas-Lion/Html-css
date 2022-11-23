@@ -60,3 +60,15 @@ section#redes-sociais img:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.575);
     transition: transform 0.5s;
 }
+
+footer {
+    text-align: center;
+    background-color: #001029c4;
+    color: white;
+    padding: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
