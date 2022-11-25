@@ -17,18 +17,27 @@ body {
 
 div#title {
     background-color: #A09383;
-    margin-bottom: 30px;
-    color: white;
+    
 }
 
-h1, h2 {
+h1 {
     text-align: center;
-    padding: 20px 0px 20px 0px;
+    color: white;
+    padding: 20px 0px 10px 0px;
 }
 
 main {
     position: relative;
     height: 100vh;
+}
+
+div#video {
+    margin-top: 30px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
 }
 
 section#youtube {
@@ -47,7 +56,6 @@ a:hover {
 div#bottom img {
     width: 40px;
     margin: 10px;
-    
 }
 
 div#bottom img:hover {
