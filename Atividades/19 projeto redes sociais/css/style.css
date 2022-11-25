@@ -68,6 +68,15 @@ footer {
     padding: 5px;
 }
 
+a#link-footer {
+    text-decoration: none;
+    color: white;
+}
+
+a#link-footer:hover {
+    text-decoration: underline;
+}
+
 ::-webkit-scrollbar {
     width: 0px;
     height: 0px;
