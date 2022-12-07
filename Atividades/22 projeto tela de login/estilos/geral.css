@@ -98,6 +98,8 @@ input#isen {
 }
 
 input#envio {
+    display: block;
+    margin: auto;
     background-color: #616161;
     color: #f0f6f6;
     font-weight: bold;
@@ -112,6 +114,8 @@ input#envio {
 }
 
 div#links {
+    display: block;
+    margin: auto;
     padding-top: 10px;
     text-align: center;
 }
