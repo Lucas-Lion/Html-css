@@ -50,7 +50,7 @@ section#login {
 
     background-color: white;
     width: 350px;
-    height: 450px;
+    height: 470px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.329);
 }
@@ -100,16 +100,20 @@ input#isen {
 input#envio {
     display: block;
     margin: auto;
+
     background-color: #616161;
     color: #f0f6f6;
+
     font-weight: bold;
+    font-size: 1.1em;
+
     border: none;
     border-radius: 6px;
     display: block;
-    margin: auto;
-    width: 19%;
+
+    width: 21%;
     height: 26px;
-    font-size: 1.1em;
+
     box-shadow: 0px 0px 8px #3939396a;
 }
 
