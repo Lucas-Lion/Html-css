@@ -26,6 +26,7 @@ header {
     background-color: #0c5b91;
     height: 170px;
     position: relative;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.751);
 }
 
 img {
@@ -48,15 +49,91 @@ section#login {
     transform: translate(-50%, -50%);
 
     background-color: white;
-    width: 250px;
-    height: 300px;
-    border-radius: 7px;
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.329);
 }
 
 section#login > div#forms {
     display: block;
     padding: 10px;
+}
+
+h1 {
+    padding-top: 10px;
+    color: #393939d1;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.9em;
+    margin: 20px 20px 0px 20px;
+ }
+
+label {
+    display: block;
+    margin: auto;
+    padding-left: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #616161;
+    padding-top: 10px;  
+}
+
+input#iusu {
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 30px;
+    border: solid 1px #6b6c6c73;
+    border-radius: 10px;
+}
+
+input#isen {
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 30px;
+    border: solid 1px #6b6c6c73;
+    border-radius: 10px;
+}
+
+input#envio {
+    background-color: #616161;
+    color: #f0f6f6;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    display: block;
+    margin: auto;
+    width: 19%;
+    height: 26px;
+    font-size: 1.1em;
+    box-shadow: 0px 0px 8px #3939396a;
+}
+
+div#links {
+    padding-top: 10px;
+    text-align: center;
+}
+
+div > a {
+    color: #616161;
+    text-decoration: none;
+    display: block;
+}
+
+div > a:hover {
+    background-color: #393939;
+}
+
+footer {
+    background-color: #0c5b91;
+    color: #f0f6f6;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.585);
 }
 
 ::-webkit-scrollbar {
