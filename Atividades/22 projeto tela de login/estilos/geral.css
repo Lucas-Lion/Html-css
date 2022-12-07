@@ -115,6 +115,11 @@ input#envio {
     padding: 0px 10px 0px 10px;
 
     box-shadow: 0px 0px 8px #3939396a;
+    cursor: pointer;
+}
+
+input#envio:hover  {
+    background-color: #076aac;
 }
 
 div#links {
@@ -125,13 +130,14 @@ div#links {
 }
 
 div > a {
+    font-weight: bold;
     color: #616161;
     text-decoration: none;
     display: block;
 }
 
 div > a:hover {
-    background-color: #393939;
+    color: #076aac;
 }
 
 footer {
