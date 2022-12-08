@@ -40,6 +40,8 @@ main {
     position: relative;
     height: 100vh;
     width: 100vw;
+
+    padding: 20px 0px 20px 0px;
 }
 
 section#login {
@@ -158,4 +160,3 @@ footer {
     width: 0px;
     height: 0px;
 }
-
