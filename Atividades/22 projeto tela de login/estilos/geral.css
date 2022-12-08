@@ -62,7 +62,7 @@ section#login > div#forms {
 
 h1 {
     padding-top: 10px;
-    color: #393939d1;
+    color: #393939de;
     text-align: center;
     font-weight: bold;
     font-size: 1.6em;
@@ -86,6 +86,8 @@ input#iusu {
     height: 30px;
     border: solid 1px #6b6c6c73;
     border-radius: 10px;
+    
+    padding-left: 10px;
 }
 
 input#isen {
@@ -95,6 +97,8 @@ input#isen {
     height: 30px;
     border: solid 1px #6b6c6c73;
     border-radius: 10px;
+
+    padding-left: 10px;
 }
 
 input#envio {
