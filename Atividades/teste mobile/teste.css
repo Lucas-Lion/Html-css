@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+:root {
+    --BLOCOS: #0c5b91;
+    --BLOCO-HOVER: rgba(0,0,0,.7);
+    --BOX-SHADOW: rgba(0, 0, 0, 0.756);
+    --FONT-COLOR-BLOCO: white;
+}
+
+a {
+    text-decoration: none
+  }
+
+
+div > p {
+    color: var(--FONT-COLOR-BLOCO);
+    font-size: 1.6em;
+    font-weight: bolder;
+    
+    position: relative;
+    bottom: -37%;
+    }
+
+.texto {   
+    background-color: var(--BLOCO-HOVER);
+    text-align: center;
+        
+    height:180px;
+    width:180px;
+        
+    border-radius: 20px;
+        
+    opacity:0;
+    transition: opacity .2s linear;
+    }
+
+#opacidade:hover .texto { 
+    opacity: 1; 
+    }
+
+.imagem-1 {
+    background-color: var(--BLOCOS);
+    background-image: url(../imagens/computadores.png);  
+    background-size: 170px;
+        background-repeat: no-repeat;
+        background-position: center center;
+    
+        height:200px;
+        width:200px; 
+    
+        border-radius: 20px;
+        box-shadow: 1px 1px 10px var(--BOX-SHADOW);
+    
+        display: block;
+        transform: translate(15%, 50%);
+        }
+
+
+
