@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+/*   Typical Device Breakpoint 
+
+Pequenas telas:     até 600px
+celular:            600px até 768px
+Tablet:             768px até 992px 
+Desktop:            992px até 1200px
+Grandes telas:      acima de 1200px  
+
+*/
+
+@media screen and (min-width: 100px) and (max-width:768px) { 
+
+   
+    
+    div#sudesb img {
+        display: none;
+        width: 220px;
+        box-sizing: border-box;
+    }
+
+    #logo {
+        width: 10%;
+        display: block;
+        margin: auto;
+        padding: 5px 0px 5px 0px;
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 2em;
+    }
+    
+    header > p {
+        text-align: center;
+        font-size: 1em;
+        padding: 5px 0px 5px 0px;
+    }
+
+    .imagem-1 {
+        background-color: var(--BLOCOS);
+        background-image: url(../imagens/computadores.png);  
+        background-size: 170px;
+        background-repeat: no-repeat;
+        background-position: center center;
+    
+        height:200px;
+        width:200px; 
+    
+        border-radius: 20px;
+        box-shadow: 1px 1px 10px var(--BOX-SHADOW);
+    
+        display: block;
+        transform: translate(15%, 50%);
+        }
+    
+    
+    .imagem-2 {
+        background-color: var(--BLOCOS);
+        background-image: url(../imagens/rede.png);  
+        background-size: 170px;
+        background-repeat: no-repeat;
+        background-position: center center;
+    
+        height:200px;
+        width:200px; 
+    
+        border-radius: 20px;
+        box-shadow: 1px 1px 10px var(--BOX-SHADOW);
+    
+        display: block;
+        transform: translate(170%, -50%);
+    
+        }
+    
+
+    .imagem-3 {
+        background-color: var(--BLOCOS);
+        background-image: url(../imagens/cabo.png);  
+        background-size: 170px;
+        background-repeat: no-repeat;
+        background-position: center center;
+    
+        height:200px;
+        width:200px;  
+    
+        border-radius: 20px;
+        box-shadow: 1px 1px 10px var(--BOX-SHADOW);
+    
+        display: block;
+        transform: translate(170%, 300%);
+        }
+
+    .imagem-4 {
+        background-color: var(--BLOCOS);
+        background-image: url(../imagens/roteador.png);  
+        background-size: 170px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        
+        height:200px;
+        width:200px;  
+        
+        border-radius: 20px;
+        box-shadow: 1px 1px 10px var(--BOX-SHADOW);
+        
+        display: block;
+        transform: translate(16%, -100%);
+        }
+            
+    .imagem-5 {
+        background-color: var(--BLOCOS);
+        background-image: url(../imagens/rato.png);  
+        background-size: 170px;
+        background-repeat: no-repeat;
+        background-position: center center;
+            
+        height:200px;
+        width:200px;  
+        
+        border-radius: 20px;
+        box-shadow: 1px 1px 10px var(--BOX-SHADOW);
+        
+        display: block;
+        transform: translate(170%, -200%);
+        }
+        
+
+    .imagem-6 {
+        background-color: var(--BLOCOS);
+        background-image: url(../imagens/caixa-de-ferramentas.png);  
+        background-size: 170px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        
+        height:200px;
+        width:200px; 
+        
+        border-radius: 20px;
+        box-shadow: 1px 1px 10px var(--BOX-SHADOW);
+        
+        display: block;
+        transform: translate(15%, 1%);
+        }
+
+    .imagem-9 {
+        background-color: var(--BLOCOS);
+        background-image: url(../imagens/mais.png);  
+        background-size: 170px;
+        background-repeat: no-repeat;
+        background-position: center center;
+            
+        height:200px;
+        width:200px;  
+            
+        border-radius: 20px;
+        box-shadow: 1px 1px 10px var(--BOX-SHADOW);
+                
+        display: block;
+        transform: translate(95%, -150%);
+        }
+
+        main {
+            background-color: var(--MAIN);
+            border-radius: 0px 0px 5px 5px;
+            box-shadow: 1px 1px 20px #767a7a54;
+            max-width: 900px;
+            max-height: 1600px;
+            margin: auto;
+            text-align: center;
+        }
+
+        footer {
+            background-color: var(--FOOTER-COLOR);
+            text-align: center;
+            font-size: 0.9em;
+        
+            padding: 1px 0px 11px 0px;
+            height: 20px;
+            width: 100%;
+            bottom: -180%;
+        }
+        
+        footer > p {
+            text-align: center;
+            position: relative;
+            bottom: -37%;
+        }
+}

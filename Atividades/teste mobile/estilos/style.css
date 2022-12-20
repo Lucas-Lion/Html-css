@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+:root {
+    --HEADER: #0c5b91;
+    --NAV: #1a729f;
+    --NAV-HOVER: #124e6b;
+    --BODY: #f0f6f6;
+    --MAIN: #e5ebeb; 
+    --FONT-COLOR: #ffffff;
+    --FOOTER-COLOR: #124e6b;
+    --FONT-BASE: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--FONT-BASE);
+    color: var(--FONT-COLOR);
+}
+
+body {
+    background-color: var(--BODY);
+}
+
+header {
+    background-color: var(--HEADER);
+    min-height: 100px;
+}
+
+div#sudesb {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+div#sudesb img {
+    width: 220px;
+    box-sizing: border-box;
+}
+
+#logo {
+    width: 4%;
+    display: block;
+    margin: auto;
+    padding: 5px 0px 5px 0px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+header > p {
+    text-align: center;
+    font-size: 0.9em;
+    padding: 5px 0px 5px 0px;
+}
+
+nav {
+    text-align: right;
+    position: relative;
+    top: 18px;
+    background-color: var(--NAV);
+    padding: 4px 0px 0px 0px;
+}
+
+nav > a {
+    font-weight: bold;
+    font-size: 1em;
+
+    text-decoration: none;
+
+    padding: 4px 0px 0px 0px;
+    margin: 0px 0px 0px 5px;
+
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    background-color: var(--NAV-HOVER);
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+main {
+    background-color: var(--MAIN);
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 1px 1px 20px #767a7a54;
+    max-width: 900px;
+    max-height: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--FOOTER-COLOR);
+    text-align: center;
+    font-size: 0.9em;
+
+    padding: 1px 0px 11px 0px;
+    height: 15px;
+    width: 100%;
+    bottom: -80%;
+}
+
+footer > p {
+    text-align: center;
+    position: relative;
+    bottom: -37%;
+}
+
+#sudesb-footer {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#sudesb-footer:hover {
+    text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}

@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+:root {
+    --BLOCOS: #0c5b91;
+    --BLOCO-HOVER: rgba(0,0,0,.7);
+    --BOX-SHADOW: rgba(0, 0, 0, 0.756);
+    --FONT-COLOR-BLOCO: white;
+}
+
+a {
+    text-decoration: none
+  }
+
+
+div > p {
+    color: var(--FONT-COLOR-BLOCO);
+    font-size: 1.6em;
+    font-weight: bolder;
+    
+    position: relative;
+    bottom: -37%;
+    }
+
+.texto {   
+    background-color: var(--BLOCO-HOVER);
+    
+    height:180px;
+    width:180px;
+    
+    padding:10px;
+    border-radius: 20px;
+    
+    opacity:0;
+    transition: opacity .2s linear;
+    }
+
+#opacidade:hover .texto { 
+    opacity: 1; 
+}
+
+.imagem-1 {
+    background-color: var(--BLOCOS);
+    background-image: url(../imagens/computadores.png);  
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height:200px;
+    width:200px; 
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px var(--BOX-SHADOW);
+
+    display: block;
+    transform: translate(15%, 50%);
+    }
+
+
+.imagem-2 {
+    background-color: var(--BLOCOS);
+    background-image: url(../imagens/rede.png);  
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height:200px;
+    width:200px; 
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px var(--BOX-SHADOW);
+
+    display: block;
+    transform: translate(170%, -50%);
+
+    }
+
+.imagem-3 {
+    background-color: var(--BLOCOS);
+    background-image: url(../imagens/cabo.png);  
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height:200px;
+    width:200px;  
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px var(--BOX-SHADOW);
+
+    display: block;
+    transform: translate(326%, -150%);
+    }
+
+.imagem-4 {
+    background-color: var(--BLOCOS);
+    background-image: url(../imagens/roteador.png);  
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height:200px;
+    width:200px;  
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px var(--BOX-SHADOW);
+
+    display: block;
+    transform: translate(16%, -100%);
+    }
+    
+.imagem-5 {
+    background-color: var(--BLOCOS);
+    background-image: url(../imagens/rato.png);  
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    height:200px;
+    width:200px;  
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px var(--BOX-SHADOW);
+
+    display: block;
+    transform: translate(170%, -200%);
+    
+    }
+
+.imagem-6 {
+    background-color: var(--BLOCOS);
+    background-image: url(../imagens/caixa-de-ferramentas.png);  
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height:200px;
+    width:200px; 
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px var(--BOX-SHADOW);
+
+    display: block;
+    transform: translate(326%, -300%);
+    }
+
+.imagem-7 {
+    background-color: var(--BLOCOS);
+    background-image: url(../imagens/disco-compacto.png);  
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height:200px;
+    width:200px; 
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px var(--BOX-SHADOW);
+
+    display: block;
+    transform: translate(15%, -250%);
+    }
+    
+.imagem-8 {
+    background-color: var(--BLOCOS);
+    background-image: url(../imagens/toner.png);  
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height:200px;
+    width:200px;  
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px var(--BOX-SHADOW);
+
+
+    display: block;
+    transform: translate(170%, -350%);
+    }
+
+.imagem-9 {
+    background-color: var(--BLOCOS);
+    background-image: url(../imagens/mais.png);  
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    height:200px;
+    width:200px;  
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px var(--BOX-SHADOW);
+    
+    display: block;
+    transform: translate(326%, -450%);
+    }
+
