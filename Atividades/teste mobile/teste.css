@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 :root {
     --BLOCOS: #0c5b91;
     --BLOCO-HOVER: rgba(0,0,0,.7);
@@ -18,15 +24,15 @@ div > p {
     font-weight: bolder;
     
     position: relative;
-    bottom: -37%;
+    bottom: -30%;
     }
 
 .texto {   
     background-color: var(--BLOCO-HOVER);
     text-align: center;
         
-    height:180px;
-    width:180px;
+    height:200px;
+    width:200px;
         
     border-radius: 20px;
         
@@ -38,9 +44,32 @@ div > p {
     opacity: 1; 
     }
 
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
+.container-1 {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-2 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-3 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .imagem-1 {
     background-color: var(--BLOCOS);
-    background-image: url(../imagens/computadores.png);  
+    background-image: url(imagens/computadores.png);  
     background-size: 170px;
         background-repeat: no-repeat;
         background-position: center center;
@@ -50,9 +79,6 @@ div > p {
     
         border-radius: 20px;
         box-shadow: 1px 1px 10px var(--BOX-SHADOW);
-    
-        display: block;
-        transform: translate(15%, 50%);
         }
 
 
